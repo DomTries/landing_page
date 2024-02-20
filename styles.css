@@ -5,6 +5,7 @@
    padding: 0;
    box-sizing: border-box;
    font-family: "Roboto", sans-serif;
+   font-style: normal;
 }
 
 .hero-container {
@@ -86,4 +87,78 @@
    height: 30px;
    border-width: 0px;
    border-radius: 10px;
+}
+
+.information-container {
+   border: 1px solid red;
+   height: 500px;
+   padding: 40px 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.information {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.information h1 {
+   color: #1f2937;
+   font-size: 36px;
+   font-weight: 900;
+   padding-bottom: 50px;
+}
+
+.image-containers {
+   width: 2000px;
+   display: flex;
+   justify-content: center;
+   
+   color: #1f2937;
+}
+
+.imageone {
+   border: 1px solid red;
+   max-height: 300px;
+   max-width: 300px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.imagetwo {
+   max-height: 300px;
+   max-width: 220px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.imagethree {
+   max-height: 300px;
+   max-width: 220px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.imagefour {
+   max-height: 300px;
+   max-width: 220px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.image-containers img {
+   border: 4px solid #3882F6;
+   border-width: 6px;
+   border-radius: 20px;
+   height: 220px;
+   width: 220px;
+}
+
+.image-containers a {
+   text-align: center;
 }
